@@ -48,3 +48,4 @@ if original_file and tampered_file:
 
     st.image(mask, caption="Differences Highlighted", use_column_width=True)
 # trigger rebuild
+# trigger rebuild
