@@ -47,3 +47,4 @@ if original_file and tampered_file:
             cv2.rectangle(mask, (x, y), (x + w, y + h), (255, 0, 0), 2)
 
     st.image(mask, caption="Differences Highlighted", use_column_width=True)
+# trigger rebuild
